@@ -8,15 +8,15 @@
 		<version>3.2.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.neoris</groupId>
-	<artifactId>ws-field-neoris-user</artifactId>
+	<groupId>com.test</groupId>
+	<artifactId>ws-field-test-user</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>ws-field-neoris-user</name>
+	<name>ws-field-test-user</name>
 	<description>Microservicios de user</description>
 	<modules>
-		<module>ws-field-neoris-persistence-postgres</module>
-		<module>ws-field-meoris-service</module>
+		<module>ws-field-test-persistence-postgres</module>
+		<module>ws-field-test-service</module>
 	</modules>
 	<properties>
 		<java.version>17</java.version>
@@ -29,13 +29,13 @@
 	<dependencyManagement>
 	<dependencies>
 		<dependency>
-			<groupId>com.neoris</groupId>
-			<artifactId>ws-field-neoris-persistence-postgres</artifactId>
+			<groupId>com.test</groupId>
+			<artifactId>ws-field-test-persistence-postgres</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.neoris</groupId>
-			<artifactId>ws-field-meoris-service</artifactId>
+			<groupId>com.test</groupId>
+			<artifactId>ws-field-test-service</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
